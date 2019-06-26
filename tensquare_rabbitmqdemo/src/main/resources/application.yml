@@ -1,0 +1,5 @@
+server:
+  port: 9017
+spring:
+  rabbitmq:
+    host: 192.168.40.144

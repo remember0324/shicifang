@@ -1,0 +1,9 @@
+server:
+  port: 9016
+spring:
+  application:
+    name: tensquare-art-crawler
+  data:
+    mongodb:
+      host: 192.168.40.144
+      database: recruitdb

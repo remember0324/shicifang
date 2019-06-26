@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      name: recruit
+      profile: dev
+      uri: http://127.0.0.1:12000
