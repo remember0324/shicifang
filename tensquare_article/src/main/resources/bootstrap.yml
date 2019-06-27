@@ -1,6 +1,6 @@
 spring:
   cloud:
     config:
-      name: sms
+      name: article
       profile: dev
       uri: http://192.168.40.144:12000
