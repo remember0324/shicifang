@@ -3,4 +3,4 @@ spring:
     config:
       name: eureka
       profile: dev
-      uri: http://192.168.40.144:12000
+      uri: http://127.0.0.1:12000

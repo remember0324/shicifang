@@ -171,6 +171,12 @@ public class UserController {
         return new Result(true, StatusCode.LOGINERROR, "登陆失败");
     }
 
+    /**
+     * 更新粉丝数
+     * @param userid
+     * @param friendid
+     * @param x
+     */
     @PutMapping("/updateFans/{userid}/{friendid}/{x}")
     public void updateFans(@PathVariable String userid, @PathVariable String friendid, @PathVariable int x) {
         userService.updateFanscountAndFollowcount(userid, friendid, x);

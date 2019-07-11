@@ -21,6 +21,8 @@ public class InterceptorConfig extends WebMvcConfigurationSupport {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(jwtInterceptor).
                 addPathPatterns("/**").
-                excludePathPatterns("/**/login/**");
+                excludePathPatterns("/**/login/**").
+                excludePathPatterns("/**/sendsms/**").
+                excludePathPatterns("/**/register/**");
     }
 }
